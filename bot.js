@@ -10,6 +10,11 @@ function clean(text) {
 const prefix = "-";
 const token = "NTQxMzkzNTk5NzYyMjY4MTgx.Dzez5g.bUT-3SHI15OsNbSOJKwuyrJ__bE";
 
+client.user.setGame(`Broadcast|Vairos`,"http://twitch.tv/Death Shop")
+client.user.setStatus("dnd")
+});
+
+
    
 client.on("ready", () => {
   console.log("Vulnix | Logged in! Server count: ${client.guilds.size}");
